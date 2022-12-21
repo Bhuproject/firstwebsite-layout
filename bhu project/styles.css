@@ -4,7 +4,16 @@
 }
 a{
    text-decoration: none;
+   color: #144065;
+   
 }
+a:hover{
+   color:#f7941e;
+   font-size: 18px;
+}
+
+li
+
 .bhuTopLogo{
    padding-bottom: 0%;
    margin: 0;
@@ -17,6 +26,10 @@ a{
    margin: auto;
    text-align: center;
    background-image: "/images/logo.png";
+}
+
+.bigger_div_Containing_all h2{
+   color: #144065;
 }
 
 .column ul{
@@ -44,9 +57,20 @@ a{
 .footer_division{
    display: flex;
 }
+.footer_division h2{
+   color: #f26135;
+}
+
+.footer_division a{
+   color: #ffffff;
+}
+
+a:hover{
+   color: #f26135;
+}
 
 .footer_about{
-   width: 30%;
+   width: 40%;
    text-align: center;
    padding: 10px 0px 0px 0px ;
 }
@@ -70,9 +94,10 @@ a{
 }
 
 .links_and_notice ul{
+   margin-top:2px ;
    padding: 3px 5px 3px 5px;
    list-style: none;
-   font-size: 14px ;
+   font-size: 17px ;
    
 }
 
@@ -118,7 +143,7 @@ a{
    text-align: left;
    list-style: none;
    margin: 10px 2px 10px 2px;
-   background-color: #ffdfc0;
+   /*     */
    padding-left: 20px;
 }
 
@@ -127,7 +152,7 @@ a{
    text-align: left;
    list-style: none;
    margin: 10px 2px 10px 2px;
-   background-color: #ffdfc0;
+   /* background-color: #ffdfc0; */
    padding-left: 20px;
 }
 
@@ -146,6 +171,10 @@ a{
    width: 40%;
 }
 
+.use-links{
+   color: #ffffff;
+}
+
 /* p{
    margin: 10px 0 10px 0; 
    padding: 5px; 
@@ -153,4 +182,3 @@ a{
    
 } */
 
-/*  */
