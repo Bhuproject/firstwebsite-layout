@@ -8,8 +8,8 @@ a{
    
 }
 a:hover{
-   color:#f7941e;
-   font-size: 18px;
+   color:#ffffff;
+   font-size: 17px;
 }
 
 li
@@ -65,6 +65,10 @@ li
    color: #ffffff;
 }
 
+.fa fa-home{
+   font-size:36px
+}
+
 a:hover{
    color: #f26135;
 }
@@ -107,43 +111,59 @@ a:hover{
    
 }
 
+.login{
+   display: block;
+   float: right;
+   margin-right: 0px;
+   
+}
+
 #middle_section{
    width: 100%;
    padding: 5px 10px 5px 10px;
    
 }
-
-.menu_icons ul{
+nav{
+   width: 100%;
+   height: 50px;
+   background-color: #144065;
+   position: sticky;
+   top: 0px;
+}
+nav ul{
+   display: flex;
    list-style: none;
    text-align: center;
-   padding: 0;
-   margin: 0;
+   padding: 0px 30px 0px 30px;
+   margin:0px 20px 0px 20px ;
    
 }
-.menu_icons li{
-   display: inline-block;
 
-   padding: 0PX;
-   margin: 0px;
+nav ul li{
+   display: block;
+   padding: 10px 30px 10px 20px;
 }
 
-.menu_icons a{
+nav li:hover{
+   /* background-color:#337ab7; */
+   border-radius:2px ;
+}
 
+nav a{
    display: block;
    color: rgb(251, 251, 249);
-   padding: 10px;
-   margin: 0px 15px 0px 15px;
+   /* margin: 0px 30px 0px 30px; */
    font-family: 'Times New Roman', Times, serif;
-   font-size: 14px;
-   transition: 0.5s;
+   font-size: 16px;
+   transition: 0.2s;
 }
+
 
 .useful_links{
    width: 40%;
    text-align: left;
    list-style: none;
    margin: 10px 2px 10px 2px;
-   /*     */
    padding-left: 20px;
 }
 
@@ -175,10 +195,37 @@ a:hover{
    color: #ffffff;
 }
 
-/* p{
-   margin: 10px 0 10px 0; 
-   padding: 5px; 
-   flex: 1;
-   
-} */
 
+
+
+                                                   /* DROPDOWN CSS */
+
+.sub_menu_1
+{
+  display:none;
+  background:#144065;
+  /* position: center; */
+}
+
+.menu_icons ul li:hover .sub_menu_1
+{
+  display:inline-block;
+  position:static;
+}
+
+.menu_icons ul li:hover .sub_menu_1 ul
+{
+  display:inline-block;
+  padding: 0px;
+  margin:0px 0px 0px 0px;
+  font-size: 1px;
+  transition: 0.5ms;
+}
+
+.sub_menu_1 ul li:hover{
+   background-color: #337ab7;
+}
+.sub_menu_1 ul li a:hover{
+   color: #ffffff;
+   
+}
