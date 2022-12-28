@@ -233,3 +233,20 @@ nav a{
    color: #ffffff;
    
 }
+
+                                    /* style for history page */
+.text_and_image{
+   display:flex;
+   margin:auto;
+}
+
+.text_and_image img{
+   width:50%;
+   padding-right:3%;
+}
+
+.gallery{
+   display:flex;
+   margin:auto;
+}
+
